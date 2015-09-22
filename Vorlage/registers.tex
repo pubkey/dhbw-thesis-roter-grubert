@@ -1,0 +1,23 @@
+
+\pagenumbering{roman}
+
+\tableofcontents
+
+ \clearpage 
+
+ \listoffigures
+ \addcontentsline{toc}{section}{Abbildungsverzeichnis}
+ 
+ \clearpage
+ 
+ 
+\section*{Abkürzungsverzeichnis}
+\begin{acronym}
+ \addcontentsline{toc}{section}{Abkürzungsverzeichnis}
+\setlength{\itemsep}{-\parsep} % geringerer Zeilenabstand
+ \acro{z.B.}{zum Beispiel}
+\end{acronym}
+
+\cleardoublepage
+\restoregeometry
+\pagenumbering{arabic}
