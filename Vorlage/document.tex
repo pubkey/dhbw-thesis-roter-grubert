@@ -1,16 +1,19 @@
-\input{./style/style.tex}
+\input{style/style.tex}
 
 \begin{document}
 
-\input{./credentials.tex}
+\newboolean{showSperrvermerk}
+\input{credentials.tex}
 
 
 \input{title.tex}
 
-%\input{./sperrvermerk.tex}
+\ifthenelse{\boolean{showSperrvermerk}}{
+\input{sperrvermerk.tex}
+}
 
 \input{registers.tex}
 
-\input{./content.tex}
+\input{content.tex}
 
 \end{document}
