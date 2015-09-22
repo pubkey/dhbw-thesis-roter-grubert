@@ -1,14 +1,10 @@
 
 \pagenumbering{roman}
-
+\newgeometry{left=3cm}
 \tableofcontents
-
+\restoregeometry
  \clearpage 
 
- \listoffigures
- \addcontentsline{toc}{section}{Abbildungsverzeichnis}
- 
- \clearpage
  
  \fancyhead[L]{ABKÜRZUNGSVERZEICHNIS}
 \section*{Abkürzungsverzeichnis}
@@ -18,12 +14,17 @@
  \acro{z.B.}{zum Beispiel}
  \acro{Akz.}{Abkürzung}
 \end{acronym}
-
 \clearpage
+
+
+ \listoffigures
+ \addcontentsline{toc}{section}{Abbildungsverzeichnis}
+ 
+ \clearpage
+
 \fancyhead[L]{\rightmark}
 \addcontentsline{toc}{section}{Tabellenverzeichnis}
 \listoftables
 
 \cleardoublepage
-\restoregeometry
 \pagenumbering{arabic}
