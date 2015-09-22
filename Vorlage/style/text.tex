@@ -1,5 +1,18 @@
 \usepackage{ngerman}
 \usepackage[utf8]{inputenc}
-
+\usepackage[labelfont=bf]{caption}
+\usepackage{fancyhdr} 
 \usepackage{helvet}
+\usepackage{acronym}
+
 \renewcommand{\familydefault}{\sfdefault}
+
+\captionsetup{margin=10pt,belowskip=8pt,font=small,labelfont=bf}
+\setlength{\parindent}{0em} 
+
+\renewcommand{\headrulewidth}{0.4pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\rightmark}
+\fancyhead[R]{\thepage} %Kopfzeile rechts
