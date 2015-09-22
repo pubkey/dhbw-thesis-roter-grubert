@@ -10,7 +10,18 @@ Kurs: \Kurs\\
 Betreuender Dozent: \guardian\\
 Ausbildungsbetrieb: \company\\
 \end{centering}
-\vspace{13cm}
+
+\ifthenelse{\boolean{showSperrvermerk}}{
+	\vspace{3cm}
+	\center
+	\huge
+	Nicht freigegeben
+	\vspace{6cm}
+}
+{
+	\vspace{13cm}
+}
+
 
 
 \includegraphics[width=6cm]{images/company_logo.png}
