@@ -82,7 +82,7 @@
       <file>document-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>../Literatur.bib</file>
+      <file>Literatur.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>
