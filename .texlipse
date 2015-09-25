@@ -1,5 +1,5 @@
 #TeXlipse project settings
-#Fri Sep 25 14:17:19 CEST 2015
+#Fri Sep 25 14:27:41 CEST 2015
 markTmpDer=true
 builderNum=2
 outputDir=
@@ -8,7 +8,7 @@ bibrefDir=
 outputFormat=pdf
 tempDir=tmp
 mainTexFile=document.tex
-outputFile=thesis.pdf
+outputFile=Dokument.pdf
 langSpell=de
 markDer=true
 srcDir=
