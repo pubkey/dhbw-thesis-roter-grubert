@@ -1,0 +1,47 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{praxishandbuch:bpmn2}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Freud}{F.}%
+     {Jakob}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rücker}{R.}%
+     {Bernd}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Hanser Verlag. München, Wien}%
+  }
+  \strng{namehash}{FJRB1}
+  \strng{fullhash}{FJRB1}
+  \field{labelyear}{2009}
+  \field{sortinit}{F}
+  \field{edition}{3. Auflage}
+  \field{title}{Praxishandbuch BPMN 2.0}
+  \field{year}{2009}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

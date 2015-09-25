@@ -1,0 +1,17 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Abk\IeC {\"u}rzungsverzeichnis}{ii}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Abbildungsverzeichnis}{iii}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Tabellenverzeichnis}{iv}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Kapitel 1}{1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1}Kapitel 1.1\dots die AUF JEDENFALL MEHRZEILIG\\IST}{1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.1.1}Kapitel 1.1.3}{1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2}Kapitel 1.2}{1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Literaturverzeichnis}{2}
