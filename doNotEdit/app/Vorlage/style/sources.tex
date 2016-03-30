@@ -1,0 +1,56 @@
+
+\usepackage[backend=bibtex8,style=authortitle,
+citestyle=authortitle, urldate=babel ]{biblatex}
+
+
+
+
+\usepackage[labelfont=bf]{caption}
+\usepackage[babel,german=quotes]{csquotes}
+\usepackage[colorlinks=false, pdfborder={0 0 0}]{hyperref}
+
+\usepackage{etoolbox}
+
+
+
+\DeclareNameFormat{labelname}{%
+\ifcase\value{uniquename}%
+\usebibmacro{name:last-first}{#1}{#3}{#5}{#7}%
+\or
+\ifuseprefix
+{\usebibmacro{name:last-first}{#1}{#4}{#5}{#8}}
+{\usebibmacro{name:last-first}{#1}{#4}{#6}{#8}}%
+\or
+\usebibmacro{name:last-first}{#1}{#3}{#5}{#7}%
+\fi
+\usebibmacro{name:andothers}}
+
+%\printfield[citetitle]{labeltitle}
+\renewbibmacro*{cite:title}{%
+\printtext[bibhyperref]{%
+\printfield[citetitle]{shorttitle}%
+\iffieldundef{shorttitle}{\printfield[cit
+etitle]{labeltitle}}{}%
+    \setunit{\addcomma\space}%
+    \printdate
+  }
+}
+
+
+\DeclareFieldFormat{urldate}{\addcomma\space (abgerufen am\space#1 )}
+
+\renewbibmacro*{title}{%
+  \ifboolexpr{
+    test {\iffieldundef{title}}
+    and
+    test {\iffieldundef{subtitle}}
+  }
+    {}
+    {\printtext[title]{%
+       \printfield[parens]{\iffieldundef{shorttitle}{labeltitle}{shorttitle}}
+       \printfield[titlecase]{title}%
+       \setunit{\subtitlepunct}%
+       \printfield[titlecase]{subtitle}}%
+       \setunit{\addspace}%
+     \newunit}%
+  \printfield{titleaddon}}

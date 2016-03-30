@@ -1,0 +1,67 @@
+\documentclass[12pt]{article}
+
+
+
+\input{Vorlage/style/layout.tex}
+\input{Vorlage/style/text.tex}
+\input{Vorlage/style/sources.tex}
+\input{Vorlage/style/images.tex}
+
+
+% ZEUG VON TINO %
+\usepackage[T1]{fontenc}	% für Texte mit Umlauten und/oder Akzenten
+\usepackage[utf8]{inputenc}	% Silbentrennung und Eingabe von Umlauten
+\usepackage{fixltx2e} % Verbessert einige Kernkompetenzen von LaTeX2e
+\usepackage{graphicx} % Einfügen von Grafiken (.png)
+\usepackage[acronym,toc,nonumberlist]{glossaries}
+\usepackage{geometry}
+\geometry{a4paper, top=25mm, left=40mm, right=25mm, bottom=30mm,headsep=10mm,
+footskip=12mm}
+\usepackage{float}
+\restylefloat{figure}
+
+
+
+%\usepackage[hyphens]{url} % URL's schöner formatieren
+
+%eigenes zeug%
+\usepackage{wrapfig}
+
+
+
+\usepackage{listings}
+\usepackage{color}
+\definecolor{lightgray}{rgb}{.9,.9,.9}
+\definecolor{darkgray}{rgb}{.4,.4,.4}
+\definecolor{purple}{rgb}{0.65, 0.12, 0.82}
+
+\lstdefinelanguage{JavaScript}{
+  keywords={typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break},
+  keywordstyle=\color{blue}\bfseries,
+  ndkeywords={class, export, boolean, throw, implements, import, this},
+  ndkeywordstyle=\color{darkgray}\bfseries,
+  identifierstyle=\color{black},
+  sensitive=false,
+  comment=[l]{//},
+  morecomment=[s]{/*}{*/},
+  commentstyle=\color{purple}\ttfamily,
+  stringstyle=\color{red}\ttfamily,
+  morestring=[b]',
+  morestring=[b]"
+}
+
+\lstset{
+   language=JavaScript,
+   backgroundcolor=\color{lightgray},
+   extendedchars=true,
+   basicstyle=\footnotesize\ttfamily,
+   showstringspaces=false,
+   showspaces=false,
+   numbers=left,
+   numberstyle=\footnotesize,
+   numbersep=9pt,
+   tabsize=2,
+   breaklines=true,
+   showtabs=false,
+   captionpos=b
+}

@@ -1,0 +1,15 @@
+"*":
+  core:
+    disabledPackages: [
+      "language-latex"
+    ]
+  editor:
+    invisibles: {}
+  "exception-reporting":
+    userId: "1dc1ba25-2215-963c-ff28-bc845eeaf869"
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  welcome:
+    showOnStartup: false

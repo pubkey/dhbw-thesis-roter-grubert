@@ -1,0 +1,11 @@
+# Fdb version 3
+["pdflatex"] 1459335303 "sources.tex" "sources.pdf" "sources" 1459335303
+  "/etc/texmf/web2c/texmf.cnf" 1442842352 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1392645748 31083 1dfd8bf685ce0009c40532fedf8a7c53 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1392645748 31083 1dfd8bf685ce0009c40532fedf8a7c53 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1442842362 1342096 1c0f9dfe4f72e7cf47c5b7717bdab416 ""
+  "sources.aux" 1459335255 8 a94a2480d3289e625eea47cd1b285758 ""
+  "sources.tex" 1459335300 96 4d8ceac42bd7e81402e17558b21c04ae ""
+  (generated)
+  "sources.pdf"
+  "sources.log"
