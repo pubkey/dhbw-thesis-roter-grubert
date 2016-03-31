@@ -1,8 +1,5 @@
 "*":
-  core:
-    disabledPackages: [
-      "language-latex"
-    ]
+  core: {}
   editor:
     invisibles: {}
   "exception-reporting":

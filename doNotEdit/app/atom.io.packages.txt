@@ -1,6 +1,6 @@
 activate-power-mode@0.4.1
 autocomplete-paths@1.0.2
-file-icons@1.6.19
+file-icons@1.6.20
 highlight-selected@0.11.2
 language-latex@0.6.1
 latex-autocomplete@0.3.1

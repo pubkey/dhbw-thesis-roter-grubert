@@ -11,7 +11,7 @@ npm install
 
 
 #atom.io
-if [ ! -d /root/.atom/packages/file-icons ]
+if [ ! -d /root/.atom/packages/todo-show ]
 then
     apm install --packages-file /app/atom.io.packages.txt
 fi
