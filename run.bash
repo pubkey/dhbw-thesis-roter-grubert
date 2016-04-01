@@ -21,8 +21,6 @@ fi
 
 
 #folders
-mkdir -p $SCRIPTPATH/.eclipse-docker
-chmod -R 777  $SCRIPTPATH/.eclipse-docker
 chmod -R 777  $SCRIPTPATH/workspace
 chmod -R 777  $SCRIPTPATH/doNotEdit/eclipse
 
@@ -45,7 +43,7 @@ xhost +
 echo "make container"
 docker run -it --name $MODULENAME \
 --privileged \
--v $SCRIPTPATH/workspace:/workspace \
+-v $SCRIPTPATH/doNotEdit/workspace:/workspace \
 -v $SCRIPTPATH/bachelorarbeit:/workspace/bachelorarbeit \
 -v $SCRIPTPATH/doNotEdit/eclipse:/eclipse \
 -v /tmp/.X11-unix/:/tmp/.X11-unix/ \

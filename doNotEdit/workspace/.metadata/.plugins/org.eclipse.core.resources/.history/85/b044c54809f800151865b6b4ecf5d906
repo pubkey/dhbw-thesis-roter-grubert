@@ -1,0 +1,44 @@
+\pagenumbering{gobble}
+\begin{titlepage}
+\newgeometry{top=25mm,bottom=25mm,left=25mm,right=25mm}
+
+\maketitle
+\thispagestyle{empty}
+
+\begin{centering}
+Matrikelnummer: 9612322 \\
+Kurs: \Kurs\\
+Betreuender Dozent: \guardian\\
+Ausbildungsbetrieb: \company\\
+\end{centering}
+
+\ifthenelse{\boolean{showSperrvermerk}}{
+\vspace{2cm}
+\center
+{\huge Sperrvermerk\\}
+\vspace{3cm}
+}
+{
+\vspace{13cm}
+}
+
+
+Fakultät für Wirtschaft\\
+Studiengang Wirtschaftsinformatik\\
+
+\vspace{1em}
+
+DUALE HOCHSCHULE BADEN-WÜRTTEMBERG\\
+VILLINGEN-SCHWENNINGEN
+\end{centering}
+
+
+\vspace{2cm}
+
+\includegraphics[width=6cm]{/edit/images/company_logo.png}
+\hfill
+\includegraphics[width=6cm]{/edit/images/institute_logo.png}
+
+\vfill
+
+\end{titlepage}

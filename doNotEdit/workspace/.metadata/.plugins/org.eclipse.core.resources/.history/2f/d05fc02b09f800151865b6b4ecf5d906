@@ -1,0 +1,10 @@
+\clearpage
+\setlength\bibitemsep{1.5\itemsep}
+
+\printbibliography[
+   heading=bibintoc,
+   filter=BuchArtikel,
+   title={Literaturverzeichnis}
+]
+
+\clearpage

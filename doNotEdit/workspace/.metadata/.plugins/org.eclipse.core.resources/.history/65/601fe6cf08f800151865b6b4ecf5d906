@@ -1,0 +1,94 @@
+\section{Kapitel 1}
+
+\subsection{Kapitel 1.1\ldots die AUF JEDENFALL MEHRZEILIG\\IST}
+
+Ldforem ips um do lor sit amet, consetetur sadipscing elitr, \label{Referenz}
+sed diam  nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+sed diam vddoluptsssua. At vero eos et accusam et justo duo dolores et ea rebum.
+Stet clita kasd gubergren, no sea takimata sd��ner anctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+\footcite[Vgl.][Experto.de, Artikel über das und jenes]{praxishandbuch:bpmn2}
+\subsubsection{Beispieltext}
+Lorem ipsum dolor sit amet, co nsetetur sadipscing elitr, sed diam
+nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+%erzwinge Seitenumbruch
+\clearpage
+
+\subsection{Beispielbilder}
+Lorem ipsum dolor sit amet, consetetur  sdf sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+
+\begin{center}
+	\includegraphics[width=5cm]{/edit/images/company_logo.png}
+	\captionof{figure}{Beispielbild - Quelle: Internet}
+\end{center}
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+\begin{center}
+	\includegraphics[width=10cm]{/edit/images/institute_logo.png}
+	\captionof{figure}{Beispielbild2 - Quelle: Internet}
+\end{center}
+
+
+\clearpage
+
+\subsection{Beispieltabellen}
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.\\\\
+ nonumyeirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+
+
+\begin{table}[h]
+\begin{tabularx}{\textwidth}{|l|c|X|r|}
+	\hline
+	\textbf{Spalte 1} (linksb��ndig) & \textbf{Spalte 2} (center) &
+	blabla & \textbf{Spalte1} (rechts) \\
+	\hline
+	\hline
+	inhalt1 & foobar & inhalt 3 & aaaa \\
+	\hline
+	inhalt1 & inhalt 2 & inhalt 3 & bbbb \\
+	\hline
+	inhalt1 & inhalt 2 & inhalt 3 & ccccc \\
+	\hline
+\end{tabularx}
+\caption{Beispieltabelle 1}
+\end{table}
+
+
+\section{Die Kunst des D��nermachens}
+
+Beispielzitat bei mehr als 5 Zeilen:
+\begin{quote}
+"`Döner macht schöner\über mehr als 5 Zeilen\\
+Macht Ali dir auch einen Döner \\
+ohne Extra Soße \\
+aber den Käse vergisst er trozdem\\
+ENDE."' 
+\footcite[W��rtlich ��bernommen von Ali]{praxishandbuch:bpmn2}
+\end{quote}
+Verweis innerhalb des Dokuments:\footcite[Vgl. \ref{Referenz} auf Seite
+\pageref{Referenz} ]{testarticle}
+
+
+\begin{figure}[H]
+\begin{minipage}{\linewidth}
+\begin{center}
+\fbox{
+\centering
+\includegraphics[width=10cm]{/edit/images/company_logo.png}
+\caption{
+Schauerleute im Hamburger Hafen
+\newline
+Quelle: {\protect\url{
+https://de.wikipedia.org/wiki/Hafenarbeiter#/media/File:Dockers\%27_work_difference.jpg
+}}\newline
+Aufruf: 13.10.2015
+}
+}
+\end{center}
+\end{minipage}
+\end{figure}
+
+\clearpage
+\section{Anhang}
+
+Lorem ipsum\ldots

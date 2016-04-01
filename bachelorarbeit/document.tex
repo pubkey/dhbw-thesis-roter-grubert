@@ -1,19 +1,30 @@
-%%This is a very basic article template.
-%%There is just one section and two subsections.
-\documentclass{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% !! Hier nichts bearbeiten !! %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\input{Vorlage/style/style.tex}
+\usepackage{eurosym}
+\addbibresource{Literatur}
 \begin{document}
 
+\newboolean{showSperrvermerk}
+\input{Grunddaten.tex}
+  
 
-\section{Title}
+\input{Vorlage/title.tex}
 
-\subsection{Subtitle}
+\ifthenelse{\boolean{showSperrvermerk}}{
+\input{Vorlage/sperrvermerk.tex}
+}
 
-Plain text.2
-33
-\subsection{Another subtitle}
+\input{Vorlage/registers.tex}
 
-More plain text.23ss
+\input{Inhalt.tex}
 
+\input{Vorlage/bib.tex}
+
+\input{Vorlage/comment.tex}
+  
+ 
 
 \end{document}

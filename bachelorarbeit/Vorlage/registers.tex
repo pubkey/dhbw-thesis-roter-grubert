@@ -1,25 +1,33 @@
 
-\pagenumbering{roman}
+\pagenumbering{Roman}
 \newgeometry{left=3cm}
 \tableofcontents
 \restoregeometry
- \clearpage
+ \clearpage 
 
-
+ 
  \fancyhead[L]{ABKÜRZUNGSVERZEICHNIS}
 \section*{Abkürzungsverzeichnis}
 \begin{acronym}
  \addcontentsline{toc}{section}{Abkürzungsverzeichnis}
 \setlength{\itemsep}{-\parsep} % geringerer Zeilenabstand
  \acro{z.B.}{zum Beispiel}
- \acro{Akz.}{Abkürzung}
+ \acro{VM}{Virtuelle Maschine}
+ \acro{PID}{Prozess ID}
+ \acro{PPU}{Pre-ProduktionsUmgebung}
+ \acro{EU}{EntwicklungsUmgebung}
+ \acro{FT}{Fachtest-Umgebung}
+ \acro{CD}{Continuous-Delivery}
+ \acro{CI}{Continuous-Integration}
+ \acro{ms}{Millisekunden}
+ \acro{UnionFS}{Union file systems}
 \end{acronym}
 \clearpage
 
 
  \listoffigures
  \addcontentsline{toc}{section}{Abbildungsverzeichnis}
-
+ 
  \clearpage
 
 \fancyhead[L]{\rightmark}
@@ -27,4 +35,4 @@
 \listoftables
 
 \cleardoublepage
-\pagenumbering{arabic}
+\pagenumbering{arabic} 

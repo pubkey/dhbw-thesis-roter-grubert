@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;bachelorarbeit/content.tex&apos; to &apos;Inhalt.tex&apos;" description="Rename resource &apos;content.tex&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="content.tex" name="Inhalt.tex" stamp="1459515779562" updateReferences="true"/>
+</session>
