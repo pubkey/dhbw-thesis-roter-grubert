@@ -7,7 +7,7 @@ SCRIPTPATH="`dirname $SCRIPT`"
 echo "-- SCRIPT_PATH: --"
 echo $SCRIPTPATH
 
-MODULENAME="latex"
+MODULENAME="texlipse"
 
 #install docker if not done before
 echo "try install docker if not exists"
@@ -20,6 +20,11 @@ else
 fi
 
 
+#folders
+mkdir -p $SCRIPTPATH/.eclipse-docker
+chmod -R 777  $SCRIPTPATH/.eclipse-docker
+chmod -R 777  $SCRIPTPATH/workspace
+chmod -R 777  $SCRIPTPATH/doNotEdit/eclipse
 
 #delete previous container
 echo "delete old container"
@@ -40,12 +45,11 @@ xhost +
 echo "make container"
 docker run -it --name $MODULENAME \
 --privileged \
--v $SCRIPTPATH/doNotEdit/app:/app \
--v $SCRIPTPATH/edit:/edit \
--v $SCRIPTPATH:/export \
+-v $SCRIPTPATH/workspace:/workspace \
+-v $SCRIPTPATH/bachelorarbeit:/workspace/bachelorarbeit \
+-v $SCRIPTPATH/doNotEdit/eclipse:/eclipse \
 -v /tmp/.X11-unix/:/tmp/.X11-unix/ \
 -v /dev/shm:/dev/shm \
--v $SCRIPTPATH/doNotEdit/.atom:/root/.atom \
 -e DISPLAY=${DISPLAY} \
  $MODULENAME
 

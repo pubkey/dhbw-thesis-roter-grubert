@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<title>Getting started</title>
+</head>
+
+<body>
+<h1>Pdf4Eclipse</h1>
+Pdf4Eclipse is a pdf viewer which integrates nicely into the Eclipse workbench. 
+
+<h2>PDF renderer</h2>
+Since version 1.1.0, Pdf4Eclipse supports two different libraries to render the pdf documents. 
+The pdf renderer from SUN is fast and supports a wide range of documents. It does not support
+CID Type 0 fonts, which are often used in documents with Asian character sets.
+The JPedal renderer has a higher compatibility and supports all font types. It is a little
+bit slower though. You can change the renderer used in Pdf4Eclipse's preferences.
+
+<h2>Navigation</h2>
+To navigate in a pdf document you can use the keyboard or the mouse wheel. If  
+"Pseudo continuous scrolling" is enabled, you can scroll through the whole document
+using the mouse wheel. Otherwise you can only scroll on the current page.
+Besides that it is possible to jump to a specific page number by entering it 
+into the page field in the status bar, or using the navigation arrows.<br />
+<img src="pics/pageField.png" alt="Page selection" />
+
+<h3>Outline</h3>
+If it is included in the pdf document, Pdf4Eclipse can show the bookmarks 
+(often more like a table of contents) of the document in the <i>Outline view</i>.
+You can directly jump to a specific bookmark by selecting it in the outline.
+<br />
+<br />
+<img src="pics/outline.png" alt="Outline" />
+
+<h3 id="annotations">Annotations</h3>
+Another possibility to navigate in a pdf is by using annotations which are 
+marked by a red frame in the document. By clicking inside this frame you go 
+to the specified location. This could also be a web page in which case a 
+browser window is opened.<br />
+You can always go back to the last position by using the navigation buttons
+in the task bar or the corresponding entries in the <i>Navigate</i>-Menu.
+<br />
+
+The highlighting of annotations can be turned on and off 
+by a button in the task bar.<br />
+<br />
+<img src="pics/annotations.png" alt="Annotations" />
+
+<h2>Zoom</h2>
+You can change the presentation of the pdf by changing the zoom factor with the
+buttons on the task bar or '+' and '-' keys. <br /> 
+<img src="pics/zoomControls.png" alt="Zoom controls" /><br />
+It is also possible to change the zoom level by using the mouse wheel 
+while the ctrl-key is pressed.
+</body>
+</html>

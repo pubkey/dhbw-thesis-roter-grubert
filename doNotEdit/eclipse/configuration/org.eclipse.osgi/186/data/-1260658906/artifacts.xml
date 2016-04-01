@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='update site: http://texlipse.sourceforge.net' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='3'>
+    <property name='p2.timestamp' value='1459512445119'/>
+    <property name='eclipse.p2.force.threading' value='true'/>
+    <property name='site.checksum' value='2887152408'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='28'>
+    <artifact classifier='org.eclipse.update.feature' id='net.sourceforge.texlipse' version='1.2.2'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://texlipse.sourceforge.net/features/net.sourceforge.texlipse_1.2.2.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.bibsonomy.texlipseextension' version='0.1.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://gforge.cs.uni-kassel.de/frs/download.php/84/org.bibsonomy.texlipseextension_0.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='de.vonloesch.pdf4eclipse' version='1.0.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://borisvl.github.com/Pdf4Eclipse/features/de.vonloesch.pdf4eclipse_1.0.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='net.sourceforge.texlipse' version='1.4.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://texlipse.sourceforge.net/features/net.sourceforge.texlipse_1.4.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='net.sourceforge.texlipse' version='1.2.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://texlipse.sourceforge.net/features/net.sourceforge.texlipse_1.2.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='net.sourceforge.texlipse' version='1.3.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://texlipse.sourceforge.net/features/net.sourceforge.texlipse_1.3.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sourceforge.texlipse' version='1.4.2'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://texlipse.sourceforge.net/plugins/net.sourceforge.texlipse_1.4.2.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sourceforge.texlipse' version='1.2.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://texlipse.sourceforge.net/plugins/net.sourceforge.texlipse_1.2.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.vonloesch.pdf4eclipse.help' version='1.0.0.201111161450'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://borisvl.github.com/Pdf4Eclipse/plugins/de.vonloesch.pdf4eclipse.help_1.0.0.201111161450.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.vonloesch.pdf4Eclipse' version='1.0.1.201111161450'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://borisvl.github.com/Pdf4Eclipse/plugins/de.vonloesch.pdf4Eclipse_1.0.1.201111161450.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.vonloesch.pdf4eclipse.help' version='1.0.2.201203211148'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://borisvl.github.com/Pdf4Eclipse/plugins/de.vonloesch.pdf4eclipse.help_1.0.2.201203211148.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='net.sourceforge.texlipse' version='1.4.2'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://texlipse.sourceforge.net/features/net.sourceforge.texlipse_1.4.2.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='de.vonloesch.pdf4eclipse' version='1.1.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://borisvl.github.com/Pdf4Eclipse/features/de.vonloesch.pdf4eclipse_1.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sourceforge.texlipse' version='1.4.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://texlipse.sourceforge.net/plugins/net.sourceforge.texlipse_1.4.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.bibsonomy.texlipseExtension' version='0.1.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://gforge.cs.uni-kassel.de/frs/download.php/85/org.bibsonomy.texlipseExtension_feature_0.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sourceforge.texlipse' version='1.3.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://texlipse.sourceforge.net/plugins/net.sourceforge.texlipse_1.3.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='net.sourceforge.texlipse' version='1.4.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://texlipse.sourceforge.net/features/net.sourceforge.texlipse_1.4.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sourceforge.texlipse' version='1.2.2'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://texlipse.sourceforge.net/plugins/net.sourceforge.texlipse_1.2.2.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='net.sourceforge.texlipse' version='1.2.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://texlipse.sourceforge.net/features/net.sourceforge.texlipse_1.2.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sourceforge.texlipse' version='1.2.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://texlipse.sourceforge.net/plugins/net.sourceforge.texlipse_1.2.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jpedal.pdf' version='4.73.26'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://borisvl.github.com/Pdf4Eclipse/plugins/org.jpedal.pdf_4.73.26.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='net.sourceforge.texlipse' version='1.5.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://texlipse.sourceforge.net/features/net.sourceforge.texlipse_1.5.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sourceforge.texlipse' version='1.4.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://texlipse.sourceforge.net/plugins/net.sourceforge.texlipse_1.4.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.vonloesch.pdf4Eclipse' version='1.1.0.201204091136'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://borisvl.github.com/Pdf4Eclipse/plugins/de.vonloesch.pdf4Eclipse_1.1.0.201204091136.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.vonloesch.pdf4eclipse.help' version='1.1.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://borisvl.github.com/Pdf4Eclipse/plugins/de.vonloesch.pdf4eclipse.help_1.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sourceforge.texlipse' version='1.5.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://texlipse.sourceforge.net/plugins/net.sourceforge.texlipse_1.5.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='de.vonloesch.pdf4eclipse' version='1.0.2'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://borisvl.github.com/Pdf4Eclipse/features/de.vonloesch.pdf4eclipse_1.0.2.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.vonloesch.pdf4Eclipse' version='1.0.2.201203211148'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://borisvl.github.com/Pdf4Eclipse/plugins/de.vonloesch.pdf4Eclipse_1.0.2.201203211148.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

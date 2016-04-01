@@ -1,5 +1,7 @@
 "*":
-  core: {}
+  core:
+    openEmptyEditorOnStart: false
+    projectHome: "/edit"
   editor:
     invisibles: {}
   "exception-reporting":

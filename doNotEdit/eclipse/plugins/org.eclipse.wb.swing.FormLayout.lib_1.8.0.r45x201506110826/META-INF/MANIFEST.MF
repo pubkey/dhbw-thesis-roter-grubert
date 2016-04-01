@@ -1,0 +1,40 @@
+Manifest-Version: 1.0
+Bundle-ClassPath: jgoodies-common-1.8.0.jar,jgoodies-forms-1.8.0.jar
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.eclipse.wb.swing.FormLayout.lib;singleton:=tr
+ ue
+Require-Bundle: org.eclipse.core.resources
+Bundle-Version: 1.8.0.r45x201506110826
+Export-Package: com.jgoodies.forms.builder,com.jgoodies.forms.debug,co
+ m.jgoodies.forms.factories,com.jgoodies.forms.layout,com.jgoodies.for
+ ms.util
+Bundle-ManifestVersion: 2
+
+Name: target.properties
+SHA1-Digest: DOFqRKWj2eXNzXsr45voPsF/xC8=
+
+Name: jgoodies-common-1.8.0-sources.jar
+SHA1-Digest: j2i19P0AICArZFDZ4YRKQXdKVwY=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: UFYg0eMG9q0DR/pcR0VM4uzyYpY=
+
+Name: jgoodies-common-1.8.0.jar
+SHA1-Digest: 1LyhG6ic8IKWD3hZf3nY0fjOGUM=
+
+Name: jgoodies-forms-1.8.0-sources.jar
+SHA1-Digest: dDDpli15Fsxb70RkT2+dA9pxou0=
+
+Name: about.html
+SHA1-Digest: KJyaHtuvpzfOoCPxfWGst2S+Tpw=
+
+Name: plugin.properties
+SHA1-Digest: est0RKlNw1EGTNc0KJbhxzmLPbo=
+
+Name: jgoodies-forms-1.8.0.jar
+SHA1-Digest: W043+NSM+ZkFKX5AmIr5UodQ1UI=
+
