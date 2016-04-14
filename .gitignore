@@ -1,6 +1,2 @@
 doNotEdit/app/node_modules/
 doNotEdit/app/nohup.out
-doNotEdit/.atom/packages
-doNotEdit/.atom/.apm
-doNotEdit/.atom/compile-cache
-doNotEdit/.atom/nohup.out
