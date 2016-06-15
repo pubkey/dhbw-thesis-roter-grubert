@@ -1,6 +1,6 @@
 \pagenumbering{gobble}
 \begin{titlepage}
-\newgeometry{top=25mm,bottom=25mm,left=25mm,right=25mm}
+\newgeometry{top=25mm,bottom=25mm,left=25mm,right=15mm}
 
 \maketitle
 \thispagestyle{empty}
@@ -12,28 +12,41 @@ Betreuender Dozent: \guardian\\
 Ausbildungsbetrieb: \company\\
 \end{centering}
 
+\begin{center}
+
+
 \ifthenelse{\boolean{showSperrvermerk}}{
-\vspace{2cm}
 \center
+\vspace{2cm}
 {\huge Sperrvermerk\\}
 \vspace{3cm}
 }
 {
-\vspace{13cm}
+\vspace{4cm}
 }
 
 
 Fakultät für Wirtschaft\\
 Studiengang Wirtschaftsinformatik\\
 
+
+\ifthenelse{\boolean{showSperrvermerk}}{
+}
 \vspace{1em}
+{
+\vspace{1cm}
+}
 
 DUALE HOCHSCHULE BADEN-WÜRTTEMBERG\\
 VILLINGEN-SCHWENNINGEN
 %\end{centering}
 
-
-\vspace{2cm}
+\ifthenelse{\boolean{showSperrvermerk}}{
+\vspace{3cm}
+}
+{
+\vspace{5cm}
+}
 
 \includegraphics[width=6cm]{images/company_logo.png}
 \hfill
@@ -41,4 +54,5 @@ VILLINGEN-SCHWENNINGEN
 
 \vfill
 
+\end{center}
 \end{titlepage}
