@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.1)  1 APR 2016 13:09
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.21)  15 JUN 2016 15:31
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1464,7 +1464,7 @@ Package logreq Info: Writing requests to 'document.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  18790 strings out of 494976
- 288274 string characters out of 6179138
+ 288274 string characters out of 6179137
  692705 words of memory out of 5000000
  21607 multiletter control sequences out of 15000+600000
  49964 words of font info for 66 fonts, out of 8000000 for 9000
