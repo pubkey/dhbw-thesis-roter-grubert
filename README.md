@@ -12,9 +12,9 @@ Für Linux-User läuft das ganze mit eclipse via Docker, so dass nichts mehr ein
 - eclipse mit texlipse-plugin ( wenn Linux )
 
 ## Installation (Linux)
-1. git clone https://github.com/pubkey/dhbw-thesis-roter-grubert.git
-2. cd dhbw-thesis-roter-grubert
-3. sudo bash run.bash     ( dauert beim ersten mal ca. 20min )
+1. `git clone https://github.com/pubkey/dhbw-thesis-roter-grubert.git`
+2. `cd dhbw-thesis-roter-grubert`
+3. `sudo bash run.bash`     ( dauert beim ersten mal ca. 20min )
 4. Fertig.
 
 
