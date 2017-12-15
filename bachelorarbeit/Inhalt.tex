@@ -101,12 +101,8 @@ Prozessmodelle können in Form von Texten, Tabellen oder Grafiken dargestellt we
 die eine Notation zur Abbildung von Geschäftsprozessen zur Verfügung stellt. 
 In dieser Arbeit wird insbesondere mit der Notation BPMN gearbeitet.
 
-
-
-
 \subsection{Ereignisgesteuerte Prozesskette und Business Process Model and
 Notation}
-
 
 EPK ist als Abkürzung einer ereignisgesteuerten Prozesskette zu verstehen und
 ist für die detaillierte Modellierung und Veranschaulichung
@@ -132,12 +128,173 @@ bei der die Strukturierung von organisatorischen Einheiten,
 insbesondere  Prozessteams bzw. Funktionsbereiche, 
 den Kern- und Unterstützungsprozessen folgt.
 
+\begin{quote}
+"`BPMN ist ein Standard und soll die Brücke zwischen Business und IT schlagen."'
+\footcite[Vgl.][]{praxishandbuch:bpmn2}
+\end{quote}
+
+Business Process Model and Notation (BPMN) ist eine grafische 
+Spezifikationssprache in der Wirtschaftsinformatik und im Prozessmanagement.
+\footcite[Vgl.][]{allweyer}
+
+Es ist der Standard für graphische und XML-basierte
+Geschäftsprozessmodellierung. 
+Mit seinen Symbolen und Elementen ist eine einheitliche, standardisierte Sprache,
+Darstellung und Analyse der Prozesse möglich. 
+Im Gegensatz zu EPK könnte man BPMN als eine „junge Modellierungsnotation“ bezeichnen. 
+Sie wurde von dem IBM-Mitarbeiter Stephen A. White im Jahr 2002 entworfen, 
+daraufhin von der Business Process Management (BPM) 
+Initiative veröffentlicht und im Jahr 2005 an die Object Management Group (OMG) 
+zu einem Modellierungsstandard erklärt.
+
+Um BPMN verstehen zu können, muss zunächst das Verständnis für BPM geschaffen
+werden. BPM ist ein systematischer Ansatz, der
+dazu dient sowohl automatisierte als auch nicht-automatisierte 
+Prozesse zu erfassen, zu gestalten und auszuführen. 
+Stattdessen wird häufig auch der Begriff Geschäftsprozessmanagement dafür
+verwendet.\footcite[S.1]{praxishandbuch:bpmn2}
+ 
+Mit Hilfe von BPM können Prozesse auf die Unternehmensstrategie abgestimmt werden, 
+sodass sich die Gesamtunternehmensleistung verbessert, sobald Prozesse innerhalb 
+einzelner Organisationseinheiten, unternehmensweit oder sogar unternehmensübergreifend 
+optimiert werden.
+
+Zunehmend werden für die Ausführung von Prozessen Business Process Management-
+Systeme (BPMS) eingesetzt. Ein BPMS enthält eine Process Engine, 
+die die Abläufe direkt anhand geeigneter Prozessmodelle oder 
+formaler Prozessbeschreibungen steuert. 
+Hierfür müssen die Modelle besonders strikten Anforderungen genügen, 
+da sie nicht von Menschen in ein Computerprogramm umgesetzt, 
+sondern direkt von einer Maschine abgearbeitet werden.
+
+In Abhängigkeit von der Situation, den Ansprüchen und Zielen der einzelnen
+Unternehmen ergeben sich vielfältige Nutzenpotenziale 
+durch die Anwendung von BPMN. Es wird die verständliche Definition 
+und Dokumentation von Prozessen für die tägliche Anwendung und zur 
+Orientierung von Managern und Mitarbeitern geschaffen. 
+Zudem werden das Modell und die Notation standardisiert und stellen eine 
+gleiche Interpretation der gegebenen Prozessdefinition 
+von allen Prozessbeteiligten sicher. Verbesserung der Zusammenarbeit 
+zwischen Fachabteilung und IT-Dienstleister durch eine 
+anschauliche graphische Prozessmodellierung einerseits und eine präzise 
+Prozessdarstellung entsprechend einer Prozessgrammatik andererseits.1
+\footcite[S.1]{allweyer}
+
+Die Effizienz wird dadurch gesteigert, dass Mehrfach-Arbeit vermieden wird und
+die Zuständigkeiten und Abläufe klar definiert sind. 
+Entscheidend für eine erfolgreiche Umsetzung ist immer der konkrete Nutzen, 
+der sich direkt für Unternehmen oder Institutionen und deren Mitarbeiter ableitet.
+
+
+\subsection{Sprachelemente und Konventionen von EPK und BPMN}
+
+PK beschreibt die Ablauforganisation eines Unternehmens, wobei die logische
+Abfolge sowie das Zusammenwirken von Prozesselementen, Daten,
+Informationssystemen, Organisation sowie Erzeugnissen dargestellt werden.
+
+\begin{figure}[H]
+\begin{minipage}{\linewidth}
+\begin{center}
+\fbox{
+\centering
+\includegraphics[width=13cm]{images/epk.png}
+\caption{
+EPK-Elemente
+\newline
+}
+}
+\end{center}
+\end{minipage}
+\end{figure}
+
+
+Ein Ereignis repräsentiert sowohl einen Ausgangs- als auch einen Endpunkt.
+Dieses bestimmt auch welche Zustände bzw. welche Bedingungen einen Prozess 
+auslösen und welche Zustände die Beendigung eines Prozesses definieren.
+
+Aus der folgenden Grafik kann man entnehmen, dass BPMN auf sehr ähnliche
+Notationselemente zurückgreift, jedoch fordert es nicht nur 
+fachliche Prozessdokumentation, sondern auch informationstechnologische 
+Konventionen zu berücksichtigen.
+
+\begin{figure}[H]
+\begin{minipage}{\linewidth}
+\begin{center}
+\fbox{
+\centering
+\includegraphics[width=13cm]{images/bpmn.png}
+\caption{
+BPMN-Elemente
+\newline
+}
+}
+\end{center}
+\end{minipage}
+\end{figure}
+
+Die BPMN-Elemente werden insgesamt in fünf Kategorien eingeteilt: Flussobjekte
+(Aktivitäten, Senden, Empfangen etc.), Verbindende Objekte 
+(Message Flow, Flow, Assoziation etc.), Daten (Datenobjekt, Liste, Dokument etc.), 
+Swimlanes (Pool, Lanes) und Artefakte (Gruppierungen, Anmerkungen etc.).
+
+Ein Prozess wird häufig für eine (juristisch) selbstständige  Geschäftseinheit
+(Business Unit) oder Organisation modelliert. Eine solche Geschäftseinheit 
+kann Teilnehmer (participant) an einer Zusammenarbeit zwischen zwei, 
+oder mehreren Geschäftspartnern sein. Der "`Pool"'  dient als grafische 
+Darstellung einer selbstständigen Business Unit bzw. eines Teilnehmers 
+an einer Zusammenarbeit. Die Lanes darunter können als sogenannte "`Schwimmbahnen"'
+Swimlanes gesehen werden. Diese können untergeordnete Partnerrollen 
+(z.B. Vertrieb, Projektleitung, Beschaffung, Bereich) oder Komponenten 
+eines Systems sein und sie zeigen für welche Aktivitäten sie verantwortlich sind. 
+Der Pool ist den Lanes übergeordnet und enthält die Lanes.
+
+Ein Prozess startet und endet in der Regel mit einem Ereignis (Startereignis
+bzw. Endereignis). BPMN schreibt nicht zwingend vor, wie und ob Start- 
+und Endereignisse zu modellieren sind, es hilft jedoch zum besseren Verständnis. 
+Ereignisse werden durch einen Kreis dargestellt, je nach Art- eine schmale 
+unterbrochene, oder eine dicke durchgezogene Kreislinie- gekennzeichnet. 
+Die Aktivitäten können als Kern eines Prozesses verstanden werden. 
+Sie stellen ein Rechteck mit abgerundeten Ecken dar und werden am 
+sinnvollsten mit einer „Objekt+Verb“-Verbindung (z.B Verfügbarkeit prüfen) 
+beschriftet. Gateways dagegen sind als Kontrolle, Steuerung von Prozessen 
+und als Verbindung zwischen Aktivitäten zu verstehen. Für diese wird die 
+Raute als Zeichen verwendet, welches je nachdem, welche Entscheidungsmöglichkeit 
+es gibt, mit einem X, einem XOR oder einem OR beschriftet wird. 
+
+In welcher Reihenfolge die vorgenannten Elemente durchlaufen werden bestimmen
+die "`Sequenzflüsse"' (sequence flow). Es handelt sich hierbei um einen 
+durchgängigen Verbindungspfeil mit "`ausgefüllter"' Spitze, welches jedoch nur 
+innerhalb eines Pools, auch Lane-übergreifend, verwendet werden kann. 
+Der Austausch zwischen den Pools dagegen geschieht durch "`Nachrichtenflüsse"' (message flows),
+ welche durch einen "`gestrichelten"' Verbindungspfeil mit leerer Spitze gekennzeichnet 
+ sind. Hierbei sind noch einige Regeln zu beachten: Nachrichtenflüsse können nur mit 
+ sendenden oder empfangenden Nachrichten-Ereignissen verbunden werden. 
+ Nachrichtenflüsse dürfen zudem nicht in ein Nachrichten-Ereignis hinein- und 
+ gleichzeitig wieder herausführen, da jedes Nachrichten-Ereignis entweder sendend 
+ oder empfangend ist und nicht gleichzeitig beides. 
+
+
+In der Praxis kommen häufig komplexe Prozessmodelle vor. 
+Um die Brücke zwischen Business und IT zu schlagen, 
+können mit Hilfe von BPMN Geschäftsprozesse verständlicher und ausführbar 
+beschrieben und entworfen werden.
+Im Laufe der Arbeit und anhand der Anwendung von BPMN auf das Projekt in dieser 
+Arbeit wird deutlich inwieweit eine einheitliche Sprache geschaffen werden kann, 
+die das Ziel des besseren Verständnisses der Mitarbeiter unterschiedlicher 
+Abteilungen eines Unternehmens auch erfüllt.
+Eine ausführliche Legende aller in BPMN verwendeten Symbole und Zeichen etc. 
+ist im Anhang beigefügt. 
 
 
 
 
 
-\subsection{Kapitel 1.1\ldots die AUF JEDENFALL MEHRZEILIG\\IST}
+
+
+
+
+
+
 
 Ldforem ips um do lor sit amet, consetetur sadipscing elitr, \label{Referenz}
 sed diam  nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,

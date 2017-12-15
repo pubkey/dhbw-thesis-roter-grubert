@@ -16,6 +16,26 @@
   {}
 \endgroup
 
+\entry{allweyer}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Allweyer}{A.}%
+     {Thomas}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Books on Demand}%
+  }
+  \strng{namehash}{AT1}
+  \strng{fullhash}{AT1}
+  \field{sortinit}{A}
+  \field{edition}{1. Auflage}
+  \field{title}{BPMN 2.0 - Business Process Model and Notation: Einführung in
+  den Standard für die Geschäftsprozessmodellierung}
+  \field{year}{2015}
+\endentry
+
 \entry{prozessmanagement:leitfaden}{book}{}
   \name{author}{1}{}{%
     {{}%
@@ -57,12 +77,12 @@
 \entry{praxishandbuch:bpmn2}{book}{}
   \name{author}{2}{}{%
     {{}%
-     {Freud}{F.}%
+     {Freund}{F.}%
      {Jakob}{J.}%
      {}{}%
      {}{}}%
     {{}%
-     {Röcker}{R.}%
+     {Rücker}{R.}%
      {Bernd}{B.}%
      {}{}%
      {}{}}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.12.15)  15 DEC 2017 11:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.12.15)  15 DEC 2017 12:55
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1261,11 +1261,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 ] (./document.lof
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 7.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 11.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-Overfull \hbox (25.21613pt too wide) in paragraph at lines 7--7
+Overfull \hbox (25.21613pt too wide) in paragraph at lines 11--11
  \T1/phv/m/n/12 Quelle: []$\T1/cmtt/m/n/12 https : / / de . wikipedia . org / w
 iki / Hafenarbeiter # # / media / 
  []
@@ -1294,62 +1294,102 @@ Overfull \hbox (2.40273pt too wide) in paragraph at lines 49--59
 [1
 
 ] [2]
-Overfull \hbox (11.77402pt too wide) in paragraph at lines 111--115
+Overfull \hbox (11.77402pt too wide) in paragraph at lines 107--111
 \T1/phv/m/n/12 und ist für die de-tail-lier-te Mo-del-lie-rung und Ver-an-schau
 -li-chung von Ge-schäftspro-
  []
 
-[3]
+[3] [4]
+Overfull \hbox (46.39473pt too wide) in paragraph at lines 162--169
+[][]\T1/phv/m/n/12 Zunehmend wer-den für die Aus-füh-rung von Pro-zes-sen Busi-
+ness Pro-cess Management-
+ []
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 140.
+<images/epk.png, id=208, 713.66624pt x 281.05pt>
+File: images/epk.png Graphic file (type png)
+ <use images/epk.png>
+Package pdftex.def Info: images/epk.png used on input line 205.
+(pdftex.def)             Requested size: 369.88582pt x 145.66652pt.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 205.
+ [5]
+<images/bpmn.png, id=215, 713.66624pt x 379.4175pt>
+File: images/bpmn.png Graphic file (type png)
+ <use images/bpmn.png>
+Package pdftex.def Info: images/bpmn.png used on input line 230.
+(pdftex.def)             Requested size: 369.88582pt x 196.64981pt.
+
+[6 <./images/epk.png> <./images/bpmn.png>]
+Overfull \hbox (10.7785pt too wide) in paragraph at lines 240--250
+\T1/phv/m/n/12 men-ar-beit. Die La-nes dar-un-ter kön-nen als so-ge-nann-te ^^R
+Schwimm-bah-nen^^P Swim-
+ []
+
+[7]
+Overfull \hbox (16.2255pt too wide) in paragraph at lines 277--287
+\T1/phv/m/n/12 zwi-schen Busi-ness und IT zu schla-gen, kön-nen mit Hil-fe von 
+BPMN Ge-schäftspro-
+ []
+
+[8]
+
+LaTeX Warning: File `images/company_logo.png' not found on input line 315.
 
 
-Package Fancyhdr Warning: \headheight is too small (15.25792pt): 
- Make it at least 27.67601pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+! Package pdftex.def Error: File `images/company_logo.png' not found.
 
-[4] [5] <images/company_logo.png, id=197, 702.625pt x 336.25626pt>
-File: images/company_logo.png Graphic file (type png)
-
-<use images/company_logo.png>
-Package pdftex.def Info: images/company_logo.png used on input line 158.
-(pdftex.def)             Requested size: 142.26378pt x 68.08125pt.
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.315 ...phics[width=5cm]{images/company_logo.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 159.
+(caption)                particular \caption on input line 316.
 See the caption package documentation for explanation.
 
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 159.
 File: images/institute_logo.png Graphic file (type png)
 <use images/institute_logo.png>
-Package pdftex.def Info: images/institute_logo.png used on input line 164.
+Package pdftex.def Info: images/institute_logo.png used on input line 321.
 (pdftex.def)             Requested size: 284.52756pt x 142.27005pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 165.
+(caption)                particular \caption on input line 322.
 See the caption package documentation for explanation.
 
-[6
+[9
 
- <./images/company_logo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 172--174
+]
+Underfull \hbox (badness 10000) in paragraph at lines 329--331
 
  []
 
-File: images/company_logo.png Graphic file (type png)
-<use images/company_logo.png>
-Package pdftex.def Info: images/company_logo.png used on input line 223.
-(pdftex.def)             Requested size: 284.52756pt x 136.16763pt.
+
+LaTeX Warning: File `images/company_logo.png' not found on input line 380.
+
+
+! Package pdftex.def Error: File `images/company_logo.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.380 }
+       
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 ! Illegal parameter number in definition of \GetTitleStringResult.
 <to be read again> 
                    /
-l.223 }
+l.380 }
        
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1358,7 +1398,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \GTS@GlobalString.
 <to be read again> 
                    /
-l.223 }
+l.380 }
        
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1367,7 +1407,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \@tempa.
 <to be read again> 
                    /
-l.223 }
+l.380 }
        
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1376,7 +1416,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                    /
-l.223 }
+l.380 }
        
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1385,7 +1425,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \caption@tempa.
 <to be read again> 
                    /
-l.223 }
+l.380 }
        
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1394,7 +1434,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    /
-l.223 }
+l.380 }
        
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1403,7 +1443,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    /
-l.223 }
+l.380 }
        
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1412,7 +1452,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    /
-l.223 }
+l.380 }
        
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1421,26 +1461,26 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    /
-l.223 }
+l.380 }
        
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--223
+Underfull \hbox (badness 10000) in paragraph at lines 380--380
 \T1/phv/m/n/10.95 Quelle: []$\T1/cmtt/m/n/10.95 https : / / de . wikipedia . or
 g / wiki / Hafenarbeiter # /media / File :
  []
 
-[7
+[10
 
-] [8]) (./Vorlage/bib.tex [9
+] [11]) (./Vorlage/bib.tex [12
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 8.
- [10
+ [13
 
 ]) (./Vorlage/comment.tex)
 
@@ -1452,7 +1492,7 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 This document will not have a glossary.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 30.
-[11
+[14
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 30.
@@ -1460,16 +1500,16 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 30.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 30.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 30.
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 86A0C10EEC484F67DB5EE48BFFE4B7B3;1271.
+(rerunfilecheck)             Checksum: 9D7DA12896B44A3BE97B332F4F458C05;1273.
 Package logreq Info: Writing requests to 'document.run.xml'.
 \openout1 = `document.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18828 strings out of 494976
- 288787 string characters out of 6179136
+ 18849 strings out of 494976
+ 289017 string characters out of 6179136
  693783 words of memory out of 5000000
- 21628 multiletter control sequences out of 15000+600000
+ 21637 multiletter control sequences out of 15000+600000
  47074 words of font info for 64 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  48i,11n,75p,1746b,1216s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1481,10 +1521,10 @@ onts/pk/ljfour/jknappen/ec/ectt1095.600pk> </root/.texmf-var/fonts/pk/ljfour/jk
 nappen/ec/ectt1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/urw/helveti
 c/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on document.pdf (16 pages, 133616 bytes).
+Output written on document.pdf (19 pages, 255855 bytes).
 PDF statistics:
- 336 PDF objects out of 1000 (max. 8388607)
- 247 compressed objects within 3 object streams
- 66 named destinations out of 1000 (max. 500000)
- 163 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 374 PDF objects out of 1000 (max. 8388607)
+ 280 compressed objects within 3 object streams
+ 76 named destinations out of 1000 (max. 500000)
+ 168 words of extra memory for PDF output out of 10000 (max. 10000000)
 

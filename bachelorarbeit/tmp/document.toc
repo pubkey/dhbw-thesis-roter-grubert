@@ -24,16 +24,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1}Ereignisgesteuerte Prozesskette und Business Process Model and Notation}{3}{subsection.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Kapitel 1.1\ldots die AUF JEDENFALL MEHRZEILIG\\IST}{4}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.2}Sprachelemente und Konventionen von EPK und BPMN}{5}{subsection.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.1}Beispieltext}{4}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.1}Beispieltext}{8}{subsubsection.3.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Beispielbilder}{6}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.3}Beispielbilder}{9}{subsection.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4}Beispieltabellen}{7}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.4}Beispieltabellen}{10}{subsection.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Die Kunst des D\IeC {\"o}nermachens}{7}{section.4}
+\contentsline {section}{\numberline {4}Die Kunst des D\IeC {\"o}nermachens}{10}{section.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Anhang}{9}{section.5}
+\contentsline {section}{\numberline {5}Anhang}{12}{section.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Literaturverzeichnis}{10}{section*.6}
+\contentsline {section}{Literaturverzeichnis}{13}{section*.6}
