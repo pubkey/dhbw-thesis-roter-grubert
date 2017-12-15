@@ -296,8 +296,25 @@ beschrieben und entworfen werden.\\
 \clearpage
 \section{Software zur BPMN-Modellierung}
 
-Im Laufe der Zeit haben sich immer mehr Anbieter am Markt etabliert, die
-Lösungen zur Modellierung mit BPMN anbieten. Allein in der Wikipedia-List
+Jedes Unternehmen besitzt Prozesse. Oftmals fehlen 
+Dokumentationen zu den vorhandenen Abläufen oder sind veraltet. Dies hat
+schwerwiegende Nachteile:
+
+\begin{itemize}
+\item Optimierungsmöglichkeiten sind nicht ersichtlich
+\item Mangelhafte Standards in der Ausführung
+\item Unterschiedliche Prozessergebnisse durch unterschiedliche Ausführungen
+\item Prozessüberwachungen sind nicht möglich
+\end{itemize}
+
+Mangelhafte Dokumentationen sind oft das Ergebnis von Zeitmangel oder zu
+umständlichen Methoden der Dokumentation. Daher ist es um so wichtiger,
+Prozessmanagement durch IT zu unterstützen. Der wohl einfachste Ansatz 
+ist die Modellierung von Ablaufdiagrammen mit Hilfe von
+Software.
+
+Im Laufe der Zeit haben sich immer mehr Anbieter am Markt etabliert,
+die Lösungen zur Modellierung mit BPMN anbieten. Allein in der Wikipedia-List
 befindet sich eine Auflistung von 25 Unternehmen.\footcite{wikitools} Im
 Folgenden werden ein paar Systeme vorgestellt und verglichen.
 
@@ -397,6 +414,41 @@ Aufruf: 15.12.2017
 Da Lucidchart in der Cloud gehostet wird, ist keine lokale Installation
 notwendig. Somit wird die Anwendung auch auf allen Betriebssystemen unterstützt.
 \footcite{lucidchart} Die moderne Oberfläche vereinfacht die Modellierung.
+
+\subsection{Ergebnis}
+
+Die drei Anwendungen ARIS Express, Bonita BPM und Lucidchart werden nun
+miteinander aufgrund von unterschiedlichen Parametern verglichen. 
+
+\begin{table}[h]
+\begin{tabularx}{\textwidth}{|X|l|l|l|l|}
+	\hline
+	\textbf{Parameter}  & \textbf{ARIS Express} &
+	\textbf{Bonita BPM} & \textbf{Lucidchart}  \\
+	\hline
+	\hline
+	\textbf{Hosting} & Lokal (Java) & Lokal (Java) 3 & Cloud \\
+	\hline
+	\textbf{Betriebssysteme} & alle & alle & alle \\
+	\hline
+	\textbf{Preismodell} & Freemium & Freemium & Open Source \\
+	\hline
+	\textbf{Benutzerfreundlichkeit} & gut & sehr gut & sehr gut \\
+	\hline
+	\textbf{Integrationen} & -* & -* & sehr gut \\
+	\hline
+	\textbf{Import} & -* & sehr gut & gut \\
+	\hline
+	\textbf{Export} & -* & gut & sehr gut \\
+	\hline
+	\textbf{Mobile Unterstützung} & ja & nein & ja \\
+	\hline
+\end{tabularx}
+\caption{Vergleich von BPMN-Modellierungssoftware}
+\end{table}
+* Informationen nicht bekannt.
+
+
 
 
 \subsection{Bizagi BPMN Modeler}
