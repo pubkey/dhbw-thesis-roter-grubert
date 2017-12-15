@@ -340,8 +340,25 @@ Bausteine:
 \clearpage
 \section{Software zur BPMN-Modellierung}
 
-Im Laufe der Zeit haben sich immer mehr Anbieter am Markt etabliert, die
-Lösungen zur Modellierung mit BPMN anbieten. Allein in der Wikipedia-List
+Jedes Unternehmen besitzt Prozesse. Oftmals fehlen 
+Dokumentationen zu den vorhandenen Abläufen oder sind veraltet. Dies hat
+schwerwiegende Nachteile:
+
+\begin{itemize}
+\item Optimierungsmöglichkeiten sind nicht ersichtlich
+\item Mangelhafte Standards in der Ausführung
+\item Unterschiedliche Prozessergebnisse durch unterschiedliche Ausführungen
+\item Prozessüberwachungen sind nicht möglich
+\end{itemize}
+
+Mangelhafte Dokumentationen sind oft das Ergebnis von Zeitmangel oder zu
+umständlichen Methoden der Dokumentation. Daher ist es um so wichtiger,
+Prozessmanagement durch IT zu unterstützen. Der wohl einfachste Ansatz 
+ist die Modellierung von Ablaufdiagrammen mit Hilfe von
+Software.
+
+Im Laufe der Zeit haben sich immer mehr Anbieter am Markt etabliert,
+die Lösungen zur Modellierung mit BPMN anbieten. Allein in der Wikipedia-List
 befindet sich eine Auflistung von 25 Unternehmen.\footcite{wikitools} Im
 Folgenden werden ein paar Systeme vorgestellt und verglichen.
 
@@ -442,78 +459,82 @@ Da Lucidchart in der Cloud gehostet wird, ist keine lokale Installation
 notwendig. Somit wird die Anwendung auch auf allen Betriebssystemen unterstützt.
 \footcite{lucidchart} Die moderne Oberfläche vereinfacht die Modellierung.
 
+\subsection{Ergebnis}
 
-\subsection{Bizagi BPMN Modeler}
-TODO
-\subsection{ADONIS:Community}
+Die drei Anwendungen ARIS Express, Bonita BPM und Lucidchart werden nun
+miteinander aufgrund von unterschiedlichen Parametern verglichen.
+\\
+\\
+\textbf{Hosting} ARIS Express und Bonita BPM müssen beide lokal installiert
+werden. Da Lucidchart in der Cloud gehostet wird, ist kaum ein Implementierungsaufwand vorhanden.
+\\
+\textbf{Betriebssysteme} ARIS Express und Bonita BPM sind Java-Anwendungen und
+somit auf jedem Betriebssystem lauffähig. Da Lucidchart eine Online-Anwendung
+ist, kann diese ebenfalls auf jedem System aufgerufen werden. 
+\\
+\textbf{Preismodell} ARIS Express und Lucidchart basieren beide auf dem Freemium
+Modell, d.h. sie besitzen eine kostenlose Grundversion. Bonita BPM ist eine Open
+Source Software und somit frei und gratis zugänglich.
+\\
+\textbf{Benutzerfreundlichkeit} Alle Anwendungen haben eine gute
+Benutzerfreundlichkeit, Lucidchart und Bonita BPM heben sich jedoch durch ein
+moderneres Design ab.
+\\
+\textbf{Integrationen} Zu den Integrationsmöglichkeiten von ARIS Express sowie
+Bonita BPM lässt sich keine Dokumentation finden. Lucidchart ist dagegen sehr
+gut integrierbar, unter Anderem mit JIRA oder Confluence.
+\\
+\textbf{Import} Dokumentation zu den Import- und Exportformaten lässt sich zu
+ARIS Express nicht finden. Während in Lucidchart der Import von Visio-Dokumenten möglich ist,
+unterstützt Bonita BPM darüber hinaus auch Formate von anderen BPM-Tools, wie
+z.B. ARIS.
+\\
+\textbf{Export} Bonita BPM exportiert Diagramme in gängige Bildformate.
+Lucidchart unterstützt dagegen diverse Formate wie Visio, PowerPoint oder auch
+Word. 
+\\
+\textbf{Mobile Unterstützung} Alle Systeme, außer ARIS, unterstützen mobile
+Endgeräte.
+\\
+\\
+
+\begin{table}[h]
+\begin{tabularx}{\textwidth}{|X|l|l|l|l|}
+	\hline
+	\textbf{Parameter}  & \textbf{ARIS Express} &
+	\textbf{Bonita BPM} & \textbf{Lucidchart}  \\
+	\hline
+	\hline
+	\textbf{Hosting} & Lokal (Java) & Lokal (Java) 3 & Cloud \\
+	\hline
+	\textbf{Betriebssysteme} & alle & alle & alle \\
+	\hline
+	\textbf{Preismodell} & Freemium & Open Source &  Freemium\\
+	\hline
+	\textbf{Benutzerfreundlichkeit} & gut & sehr gut & sehr gut \\
+	\hline
+	\textbf{Integrationen} & -* & -* & sehr gut \\
+	\hline
+	\textbf{Import} & -* & sehr gut & gut \\
+	\hline
+	\textbf{Export} & -* & gut & sehr gut \\
+	\hline
+	\textbf{Mobile Unterstützung} & ja & nein & ja \\
+	\hline
+\end{tabularx}
+\caption{Vergleich von BPMN-Modellierungssoftware}
+\end{table}
+* Informationen nicht bekannt.
+\\
+\\
+Die Analyse ergibt, dass Bonita BPM und Lucidchart deutlich
+besser in den Kategorien abschneiden als ARIS Express. Bonita BPM und Lucidchart
+sind wesentlich benutzerfreundlicher und unterstützen mobile
+Endgeräte. Lucidchart punktet vor allem durch die diversen Integrations- und
+Exportmöglichkeiten, während Bonita BPM mehr Importformate anbietet und ihre
+Software Open Source zur Verfügung stellt.
 
 
-
- \\
-Ldforem ips um do lor sit amet, consetetur sadipscing elitr, \label{Referenz}
-sed diam  nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-sed diam vddoluptsssua. At vero eos et accusam et justo duo dolores et ea rebum.
-Stet clita kasd gubergren, no sea takimata sdner anctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-\footcite[Vgl.][Experto.de, Artikel über das und jenes]{praxishandbuch:bpmn2}
-\subsubsection{Beispieltext}
-Lorem ipsum dolor sit amet, co nsetetur sadipscing elitr, sed diam
-nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-%erzwinge Seitenumbruch
-\clearpage
-
-\subsection{Beispielbilder}
-Lorem ipsum dolor sit amet, consetetur  sdf sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-
-\begin{center}
-	\includegraphics[width=5cm]{images/company_logo.png}
-	\captionof{figure}{Beispielbild - Quelle: Internet}
-\end{center}
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-\begin{center}
-	\includegraphics[width=10cm]{images/institute_logo.png}
-	\captionof{figure}{Beispielbild2 - Quelle: Internet}
-\end{center}
-
-
-\clearpage
-
-
-
-\section{Die Kunst des Dönermachens}
-
-Beispielzitat bei mehr als 2 Zeilen:
-\begin{quote}
-"`Döner macht schö2ner über mehr als 5 Zeilen\\
-Macht Ali dir auch einen Döner \\
-ohne Extra Soße \\
-aber den Käse vergisst er trozdem\\
-ENDE."' 
-\footcite[Wörtlich übernommen von Ali]{praxishandbuch:bpmn2}
-\end{quote}
-Verweis innerhalb des Dokuments:\footcite[Vgl. \ref{Referenz} auf Seite
-\pageref{Referenz} ]{testarticle}
-
-
-\begin{figure}[H]
-\begin{minipage}{\linewidth}
-\begin{center}
-\fbox{
-\centering
-\includegraphics[width=10cm]{images/company_logo.png}
-\caption{
-Schauerleute im Hamburger Hafen
-\newline
-Quelle: {\protect\url{
-https://de.wikipedia.org/wiki/Hafenarbeiter#/media/File:Dockers\%27_work_difference.jpg
-}}\newline
-Aufruf: 13.10.2015
-}
-}
-\end{center}
-\end{minipage}
-\end{figure}
 
 \clearpage
 \section{Anhang}
