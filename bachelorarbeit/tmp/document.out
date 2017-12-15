@@ -1,11 +1,26 @@
-\BOOKMARK [1][-]{section*.3}{Abk\374rzungsverzeichnis}{}% 1
-\BOOKMARK [1][-]{section*.4}{Abbildungsverzeichnis}{}% 2
-\BOOKMARK [1][-]{section*.4}{Tabellenverzeichnis}{}% 3
+\BOOKMARK [1][-]{section*.2}{Abk\374rzungsverzeichnis}{}% 1
+\BOOKMARK [1][-]{section*.3}{Abbildungsverzeichnis}{}% 2
+\BOOKMARK [1][-]{section*.3}{Tabellenverzeichnis}{}% 3
 \BOOKMARK [1][-]{section.1}{Kapitel 1}{}% 4
-\BOOKMARK [2][-]{subsection.1.1}{Kapitel 1.1\203die AUF JEDENFALL MEHRZEILIGIST}{section.1}% 5
-\BOOKMARK [3][-]{subsubsection.1.1.1}{Beispieltext}{subsection.1.1}% 6
-\BOOKMARK [2][-]{subsection.1.2}{Beispielbilder}{section.1}% 7
-\BOOKMARK [2][-]{subsection.1.3}{Beispieltabellen}{section.1}% 8
-\BOOKMARK [1][-]{section.2}{Die Kunst des D\366nermachens}{}% 9
-\BOOKMARK [1][-]{section.3}{Anhang}{}% 10
-\BOOKMARK [1][-]{section*.7}{Literaturverzeichnis}{}% 11
+\BOOKMARK [2][-]{subsection.1.1}{Management Summary}{section.1}% 5
+\BOOKMARK [2][-]{subsection.1.2}{Motivation}{section.1}% 6
+\BOOKMARK [2][-]{subsection.1.3}{Ziel der Arbeit}{section.1}% 7
+\BOOKMARK [1][-]{section.2}{Gesch\344ftsprozesse}{}% 8
+\BOOKMARK [2][-]{subsection.2.1}{Prozess}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.2}{Definition und Management von Gesch\344ftsprozessen}{section.2}% 10
+\BOOKMARK [1][-]{section.3}{Prozessmodellierung und Notationen}{}% 11
+\BOOKMARK [2][-]{subsection.3.1}{Ereignisgesteuerte Prozesskette}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.2}{Business Process Model and Notation}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.3}{Sprachelemente und Konventionen}{section.3}% 14
+\BOOKMARK [3][-]{subsubsection.3.3.1}{EPK}{subsection.3.3}% 15
+\BOOKMARK [3][-]{subsubsection.3.3.2}{BPMN}{subsection.3.3}% 16
+\BOOKMARK [1][-]{section.4}{Software f\374r BPMN-Modelierung}{}% 17
+\BOOKMARK [2][-]{subsection.4.1}{ARIS Express}{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.2}{Bonita BPM}{section.4}% 19
+\BOOKMARK [2][-]{subsection.4.3}{Bizagi BPMN Modeler}{section.4}% 20
+\BOOKMARK [2][-]{subsection.4.4}{ADONIS:Community}{section.4}% 21
+\BOOKMARK [3][-]{subsubsection.4.4.1}{Beispieltext}{subsection.4.4}% 22
+\BOOKMARK [2][-]{subsection.4.5}{Beispielbilder}{section.4}% 23
+\BOOKMARK [1][-]{section.5}{Die Kunst des D\366nermachens}{}% 24
+\BOOKMARK [1][-]{section.6}{Anhang}{}% 25
+\BOOKMARK [1][-]{section*.5}{Literaturverzeichnis}{}% 26
