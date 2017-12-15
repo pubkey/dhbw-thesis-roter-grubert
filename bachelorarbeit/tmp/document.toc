@@ -6,7 +6,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Tabellenverzeichnis}{V}{section*.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Kapitel 1}{1}{section.1}
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.1}Management Summary}{1}{subsection.1.1}
 \defcounter {refsection}{0}\relax 
@@ -32,7 +32,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.3.2}BPMN}{7}{subsubsection.3.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Software f\IeC {\"u}r BPMN-Modelierung}{9}{section.4}
+\contentsline {section}{\numberline {4}Software zur BPMN-Modelierung}{9}{section.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1}ARIS Express}{9}{subsection.4.1}
 \defcounter {refsection}{0}\relax 
