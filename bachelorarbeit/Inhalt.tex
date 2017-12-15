@@ -1,5 +1,142 @@
 \section{Kapitel 1}
 
+
+\subsection{Management Summary}
+
+TODO
+
+\subsection{Motivation}
+
+\begin{quote}
+"`Prozessorientierung ist seit Beginn der 90er Jahre als eine unverzichtbare 
+Maxime der Unternehmensgestaltung akzeptiert. In den letzten Jahren 
+haben viele Unternehmen Maßnahmen
+ zur verstärkten Ausrichtung an ihren Geschäftsprozessen initiiert."' 
+\footcite[S.182]{prozessmanagement:leitfaden}
+\end{quote}
+
+
+Aussagen wie diese, zeigen dass die Prozessorientierte
+Geschäftsprozessmodelierung mittlerweile fest in allen Unternehmen angekommen ist.
+Umso wichtiger ist es also, die Unterschiede und Feinheiten verschiedener Tools,
+ Prozesse und Anwendungsszenarien zu kennen.
+
+\subsection{Ziel der Arbeit}
+
+Die vorliegende Arbeit soll dem Leser einen vollständigen Überblick über die
+Kernbereiche der Prozessmodelierung geben.
+
+
+
+\section{Geschäftsprozesse}
+
+\subsection{Prozess}
+
+
+Ein „Prozess“, vom lateinischen „processus“ („Fortgang, Fortschreiten“) ist von
+der Wiederholung bereits existierender Vorgänge geprägt.
+
+Es handelt sich dabei also um eine sich äufig wiederholte, eher sequentielle
+Verkettung von Aktivitäten, wobei die Ausgangslage sowie das
+angestrebte Ergebnis definiert und die erforderlichen Maßnahmen
+kategorisiert bzw. spezifiziert sind. Dabei besetehen stets nur
+unbedeutende Unsicherheiten in der Zielerreichung zum Beispiel "`Beschaffung
+eines Zulieferteils"'.
+
+\subsection{Definition und Management von Geschäftsprozessen}
+
+
+Ein Geschäftsprozess besteht aus der wiederkehrenden Abfolge von logischen,
+zeitlich zusammengehörigen und inhaltlich abgeschlossenen Aktivitäten, dessen 
+Durchführung als Ziel die Wünsche der Kunden, die ein Unternehmen besitzt, zu befriedigen trägt.
+Eine höhere Kundenzufriedenheit bedeutet ebenfalls eine höhere Wertschöpfung. 
+Mit einem bestimmten Input und bestimmtem Ressourceneinsatz, 
+entsteht ein Output, der an einen Empfänger geht. 
+Dieser Empfänger kann ein Kunde, ein Lieferant oder eine innerbetriebliche Stelle sein. 
+Handelt es sich tatsächlich um einen innerbetrieblichen Prozess, 
+so kann davon ausgegangen werden, dass dieser organisatorisch dauerhaft geregelt wird.
+\footcite[Vgl.][ ]{prozess:db}
+
+Zusätzlich wird unterschieden zwischen Leistungs-, Unterstützungs- und
+Führungsprozessen den sogenannten Prozessarten. Prozesse werden analysiert, 
+woraus eine Bewertung ihrer Funktionalität und Effektivität entsteht. 
+Ziel der Prozessanalyse ist vor allem die Schaffung einer Transparenz als 
+Voraussetzung für eine bestmögliche Prozesssteuerung, dem „Geschäftsprozessmanagement“. 
+Eine einfache Wortanalyse ergibt, dass sich das Geschäftsprozessmanagement 
+mit der Verwaltung von Geschäftsprozessen beschäftigt.
+\footcite[S.13]{lehmann}
+
+Dazu zählen insbesondere folgende Aspekte:
+Identifikation, Planung, Dokumentation,  Gewichtung, Verbesserung,
+Steuerung, Kontrolle und Organisation von Geschäftsprozessen.
+Zusammengefasst ist das Hauptziel und damit allgemeine Anforderung in Unternehmen, 
+alle Prozessaktivitäten und Prozesse möglichst effizient auszuführen. 
+Die Herausforderung für Unternehmen besteht darin, dass diese 
+möglichst unterbrechungs- und fehlerfrei ablaufen. 
+Wenn die Prozesse und Unterprozesse einmal identifiziert worden sind, 
+erfolgt die Beachtung der oben genannten Aspekte in Form einer Modellierung. 
+Ein Prozessmodell dient dazu die kombinierte, überschneidungsfreie 
+und lückenlose Struktur zusammenhängender Prozesse in einem Unternehmen darzustellen. 
+Hierzu gibt es verschiedene Möglichkeiten. 
+Im einfachsten Fall werden textuelle oder tabellarische Beschreibungen verwendet. 
+Häufig werden Präsentations- oder Grafikprogramme genutzt, um einfache Ablaufdiagramme 
+zu erstellen. Sie bestehen meist aus Kästchen und Pfeilen, wobei keiner 
+bestimmten Methodik gefolgt wird. Zur genauen Darstellung 
+komplexerer Prozesse mit allen relevanten Aspekten, wie Verzweigungsregeln, 
+Ereignissen, ausführenden Organisationseinheiten, Datenflüssen usw., 
+genügt eine grobe Modellierung nicht. Hierfür werden geeignete Notationen benötigt. 
+Mit welchen Symbolen die verschiedenen Elemente von Prozessen dargestellt werden, 
+was sie genau bedeuten und wie sie miteinander kombiniert werden können, 
+wird durch die Notation festgelegt. (Prozessmodellierung)
+Welche Merkmale in Prozessmodellen abgebildet werden, hängt vom 
+Modellierungszweck und der verwendeten Modellierungssprache ab. 
+Die Regeln zur Modellierung von Geschäftsprozessen werden in folgenden Kapiteln deutlich.
+
+
+\section{Prozessmodellierung und Notationen}
+
+Im Zuge der Modellierung hat man es mit Zeichen unterschiedlichster Art zu tun.
+Prozessmodelle können in Form von Texten, Tabellen oder Grafiken dargestellt werden. 
+Üblicherweise wird eine Modellierungssprache verwendet, 
+die eine Notation zur Abbildung von Geschäftsprozessen zur Verfügung stellt. 
+In dieser Arbeit wird insbesondere mit der Notation BPMN gearbeitet.
+
+
+
+
+\subsection{Ereignisgesteuerte Prozesskette und Business Process Model and
+Notation}
+
+
+EPK ist als Abkürzung einer ereignisgesteuerten Prozesskette zu verstehen und
+ist für die detaillierte Modellierung und Veranschaulichung
+von Geschäftsprozessen und Prozesselementen gut
+geeignet.\footcite[Vgl.][]{lehmann}
+ 
+
+Diese Notationsform ist 1992 unter der Leitung von
+Scheer\footcite[Vgl.][]{scheer} entwickelt worden, somit wird die Bezeichnung
+Sheer-Notation oft verwendet.
+EPKs sind das Hauptdarstellungsmittel in Architecture of Integrated 
+Information Systems (ARIS), darunter Ereignisse, 
+Funktionen und Verknüpfungsoperatoren. Es gibt ebenfalls eine erweiterte EPK, 
+die weitere Merkmale, wie bspw. Organisationseinheiten, Rollen von Mitarbeitern, 
+sowie Datenbestände bzw. Informationssysteme, bietet. 
+Da die Entwicklung und Pflege sehr umfangreich werden können ist die 
+Nutzung von Softwarewerkzeugen notwendig. 
+ARIS unterstützt Unternehmen bei der Modellierung, Analyse und Optimierung von Prozessen.
+Das Grundproblem, nämlich der steigende Wettbewerbsdruck bezüglich der Zeit, 
+Kosten und Qualität verlangt effiziente und effektive Organisationsformen. 
+Unter einer Prozessorganisation ist nun eine Organisationsform zu verstehen, 
+bei der die Strukturierung von organisatorischen Einheiten, 
+insbesondere  Prozessteams bzw. Funktionsbereiche, 
+den Kern- und Unterstützungsprozessen folgt.
+
+
+
+
+
+
 \subsection{Kapitel 1.1\ldots die AUF JEDENFALL MEHRZEILIG\\IST}
 
 Ldforem ips um do lor sit amet, consetetur sadipscing elitr, \label{Referenz}

@@ -1,8 +1,0 @@
-\documentclass[12pt]{article}
-
-
-\input{Vorlage/style/layout.tex}
-\input{Vorlage/style/text.tex}
-\input{Vorlage/style/sources.tex}
-\input{Vorlage/style/images.tex}
- 

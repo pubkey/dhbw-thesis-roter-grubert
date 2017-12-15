@@ -16,6 +16,26 @@
   {}
 \endgroup
 
+\entry{prozessmanagement:leitfaden}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Becker}{B.}%
+     {Kugeler Martin Rosemann~Michael}{K.~M. R.~M.}%
+     {}{}%
+     {Joerg}{J.}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{BJKMRM1}
+  \strng{fullhash}{BJKMRM1}
+  \field{sortinit}{B}
+  \field{edition}{1. Auflage}
+  \field{title}{Prozessmanagement - Ein Leitfaden zur prozessorientierten
+  Organisationsgestaltung}
+  \field{year}{2005}
+\endentry
+
 \entry{testarticle}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -42,7 +62,7 @@
      {}{}%
      {}{}}%
     {{}%
-     {Rücker}{R.}%
+     {Röcker}{R.}%
      {Bernd}{B.}%
      {}{}%
      {}{}}%
@@ -56,6 +76,68 @@
   \field{edition}{3. Auflage}
   \field{title}{Praxishandbuch BPMN 2.0}
   \field{year}{2009}
+\endentry
+
+\entry{prozess:db}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Kühlewein}{K.}%
+     {Claus}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ziebritzki}{Z.}%
+     {Burkhard}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Europa-Lehrmittel}%
+  }
+  \strng{namehash}{KCZB1}
+  \strng{fullhash}{KCZB1}
+  \field{sortinit}{K}
+  \field{edition}{1. Auflage}
+  \field{title}{Wirtschaftsinformatik: Vom Geschäftsprozess zur Datenbank}
+  \field{year}{2003}
+\endentry
+
+\entry{lehmann}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lehmann}{L.}%
+     {Frank~R.}{F.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {dpunkt.verlag}%
+  }
+  \strng{namehash}{LFR1}
+  \strng{fullhash}{LFR1}
+  \field{sortinit}{L}
+  \field{edition}{1. Auflage}
+  \field{title}{Integrierte Prozessmodellierung mit ARIS}
+  \field{year}{2008}
+\endentry
+
+\entry{scheer}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Scheer}{S.}%
+     {August-Wilhelm}{A.-W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {springer}%
+  }
+  \strng{namehash}{SAW1}
+  \strng{fullhash}{SAW1}
+  \field{sortinit}{S}
+  \field{edition}{1. Auflage}
+  \field{title}{Vom Geschäftsprozess zum Anwendungssystem}
+  \field{year}{2002}
 \endentry
 
 \lossort

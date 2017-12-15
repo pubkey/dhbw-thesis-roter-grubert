@@ -1,3 +1,0 @@
-\usepackage[backend=bibtex8,style=authoryear]{biblatex}
-\usepackage[labelfont=bf]{caption}
-\usepackage{csquotes}
