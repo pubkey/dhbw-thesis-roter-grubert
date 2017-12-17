@@ -310,7 +310,7 @@ beschrieben und entworfen werden.\\
 
 
 
-\subsection{Vorgehen bei der Modelierung}
+\subsection{Vorgehen bei der Modellierung}
 Im folgenden wir beschrieben wie ein Prozess modeliert und anschließend
 automatisiert werden kann. Hierzu wird BPMN in Verbindung mit dem Produkt
 Bonita-Soft verwendet.
@@ -333,41 +333,111 @@ Bausteine:
 
 \subsubsection{Automatisierung des Workflow}
 
+Der folgende Prozess zur Bestellung eines Stiftes wurde modelliert:
 
 
+\begin{figure}[H]
+\begin{minipage}{\linewidth}
+\begin{center}
+\fbox{
+\centering
+\includegraphics[width=13cm]{images/sampleprocess.png}
+\caption{
+Beispiel Prozess
+\newline
+}
+}
+\end{center}
+\end{minipage}
+\end{figure}
 
+
+Mitarbeiterin Alice benötigt einen Stift und befolgt alle dazu nötigen
+Arbeitsschritte. Dazu füllt sie das Formular in Papierform aus und bringt es
+Bob, der für die Genehmigung zuständig ist. Das Formular bleibt bei Bob erst
+einmal auf dem Schreibtisch liegen, bis dieser das Papier entdeckt und absegnet.
+Nun leitet er es an Carol im Einkauf weiter, die den Stift nun bestellt. Beim
+Wareneingang kontaktiert sie Alice, die nun den Stift abholen kann. 
+\\
+\\
+Der Prozess wäre wesentlich effizienter, wenn 
+\begin{enumerate} 
+  \item Alice ein Webformular ausfüllen würde
+  \item Bob den Antrag mit einem weiteren Formular
+bestätigen könnte
+\item Carol eine Aufgabe zur Bestellung erhalten würde
+\item und Carol Alice automatisch nach Ankunft der Bestellung benachrichtigen
+könnte.
+\end{enumerate}
+
+Prozesse zu Modellieren und anschließend zu automatisieren hat diverse Vorteile:
+
+\begin{enumerate}  
+\item Weniger Bürokratie
+\item Verkürzung der Prozessdauer
+\item Qualitätssteigerung
+\item Standards und Konformität in der Ausführung und im Endprodukt
+\footcite{automatisierungspros}
+\end{enumerate}
+
+Mit Hilfe von Software, wie z.B. Bonita BPM, lassen sich Geschäftsprozesse
+automatisieren. So kann jeder Prozessbeteiligte ein Konto
+besitzen, in dem er eine Übersicht aller offenen Aufgaben und
+Zugriffe auf die Workflows hat. 
+
+Beispielsweise können Events, wie der Eingang einer Nachricht in einer Taskliste
+erscheinen.
+
+\begin{figure}[H]
+\begin{minipage}{\linewidth}
+\begin{center}
+\fbox{
+\centering
+\includegraphics[width=13cm]{images/taskliste.jpeg}
+\caption{
+Beispiel; Taskliste in Bonita BPM
+\newline
+}
+}
+\end{center}
+\end{minipage}
+\end{figure}
+
+
+Anstatt Formulare auf Papieren auszudrucken, können Formulare mit wenigen
+Mausklicks zusammengestellt werden. 
+
+\begin{figure}[H]
+\begin{minipage}{\linewidth}
+\begin{center}
+\fbox{
+\centering  
+\includegraphics[width=13cm]{images/formular.jpeg}
+\caption{
+Beispiel: Formular in Bonita BPM
+\newline
+}
+}
+\end{center}
+\end{minipage}
+\end{figure}
+
+Der Vorteil solcher BPM-Software wie Bonita ist, dass Prozesse ohne Entwickler
+automatisiert werden.  Im Folgenden werden solche Anwendungen vorgestellt. 
 
 
 \clearpage
-\section{Software zur BPMN-Modellierung}
+\section{Software für BPM}
 
-Jedes Unternehmen besitzt Prozesse. Oftmals fehlen 
-Dokumentationen zu den vorhandenen Abläufen oder sind veraltet. Dies hat
-schwerwiegende Nachteile:
-
-\begin{itemize}
-\item Optimierungsmöglichkeiten sind nicht ersichtlich
-\item Mangelhafte Standards in der Ausführung
-\item Unterschiedliche Prozessergebnisse durch unterschiedliche Ausführungen
-\item Prozessüberwachungen sind nicht möglich
-\end{itemize}
-
-Mangelhafte Dokumentationen sind oft das Ergebnis von Zeitmangel oder zu
-umständlichen Methoden der Dokumentation. Daher ist es um so wichtiger,
-Prozessmanagement durch IT zu unterstützen. Der wohl einfachste Ansatz 
-ist die Modellierung von Ablaufdiagrammen mit Hilfe von
-Software.
+Wie bereits im vorangegangenen Beispiel erläutert, ist es um so wichtiger,
+Prozessmanagement durch IT zu unterstützen. 
 
 Im Laufe der Zeit haben sich immer mehr Anbieter am Markt etabliert,
-die Lösungen zur Modellierung mit BPMN anbieten. Allein in der Wikipedia-List
-befindet sich eine Auflistung von 25 Unternehmen.\footcite{wikitools} Im
+die Lösungen zur Modellierung und Automatisierung von BPM anbieten. Allein in
+der Wikipedia-List befindet sich eine Auflistung von 25 Unternehmen.\footcite{wikitools} Im
 Folgenden werden ein paar Systeme vorgestellt und verglichen.
 
 \subsection{ARIS Express}
-
-ARIS Express wird von der Darmstädter Software AG seit 2009 entwickelt und
-vertrieben. Die Software wird als "`freeware"' vertrieben wodurch die
-grundsätzliche Nutzung kostenfrei ist.
 
 \begin{figure}[H]
 \begin{minipage}{\linewidth}
@@ -388,6 +458,10 @@ Aufruf: 13.12.2017
 \end{minipage}
 \end{figure}
 
+ARIS Express wird von der Darmstädter Software AG seit 2009 entwickelt und
+vertrieben. Die Software wird als "`freeware"' vertrieben wodurch die
+grundsätzliche Nutzung kostenfrei ist.
+\\
 
 ARIS läuft dabei als Java-Applikation
 auf dem Rechner des Nutzers wodurch es möglich ist, das Tool sowohl auf Windows-
@@ -399,6 +473,9 @@ Prozesslandschaften und Whiteboards möglich.\\
 Beachtenswert ist vor allem das intuitive Bedienungskonzept.
 Auch ohne Einführung und Vorkentnisse ist es dem Nutzer bereits möglich einfache
 Prozessketten abzubilden.
+
+
+
 
 
 \subsection{Bonita BPM}
@@ -483,6 +560,7 @@ miteinander aufgrund von unterschiedlichen Parametern verglichen.
 werden. Da Bizagi in der Cloud gehostet werden kann, ist der
 Implementierungsaufwand geringer.
 \\
+\\
 \textbf{Preismodell} ARIS Express basiert  auf dem Freemium
 Modell, d.h. es besitzt eine kostenlose Grundversion. Bonita BPM ist eine Open
 Source Software und somit frei und gratis zugänglich. \footcite{bonitasource}
@@ -490,10 +568,16 @@ Wenn Bizagi on-premise gehostet wird, dann fällt eine Lizenz pro User von 730 E
 Wartungskosten von ca. 150 Euro. Eine Nutzungsbasierte Lizenz fällt bei der
 Cloud-Version an. \footcite{bizagiprizing}
 \\
+\\
 \textbf{Benutzerfreundlichkeit} Alle Anwendungen haben eine gute
 Benutzerfreundlichkeit, Bizagi und Bonita BPM heben sich jedoch durch ein
 moderneres Design ab.
 \\
+\\ 
+\textbf{Mobile Unterstützung} Alle Systeme, außer ARIS, unterstützen mobile
+Endgeräte.
+\\
+\\ 
 \textbf{Lernen} Bizagi hebt sich vor allem durch die vielen angebotetenen Kurse
 und Zertifizierungen ab. Bonitasoft bietet dagegen eine Community mit Foren und
 Video Tutorials. 
@@ -503,7 +587,7 @@ Video Tutorials.
 \begin{center}
 \fbox{
 \centering
-\includegraphics[width=14cm]{images/bizagikurse.png}
+\includegraphics[width=10cm]{images/bizagikurse.png}
 \caption{
 Screenshot von Bizagis Kursen und Zertifizierungen
 \newline
@@ -516,14 +600,14 @@ Aufruf: 15.12.2017
 \end{center}
 \end{minipage}
 \end{figure}
-
-
+\\
 \\
 \textbf{Import} Dokumentation zu den Import- und Exportformaten lässt sich zu
 ARIS Express nicht finden. Während in Bizagi der Import von Visio, XPDL oder
 auch BPMN möglich ist,\footcite{bizagiimport} unterstützt Bonita BPM darüber
 hinaus auch Formate von anderen BPM-Tools, wie z.B. ARIS.
 \footcite{bonitaimportexport}
+\\
 \\
 \textbf{Export} Bonita BPM exportiert Diagramme in gängige Bildformate.
 \footcite{bonitaimportexport} Bizagi punktet mit einer Vielzahl an
@@ -549,10 +633,6 @@ Aufruf: 15.12.2017
 \end{minipage}
 \end{figure}
 
-
-\\
-\textbf{Mobile Unterstützung} Alle Systeme, außer ARIS, unterstützen mobile
-Endgeräte.
 \\
 \\
 
