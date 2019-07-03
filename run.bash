@@ -12,11 +12,9 @@ MODULENAME="texlipse"
 #install docker if not done before
 echo "try install docker if not exists"
 if which docker >/dev/null; then
-    echo "docker exists: wont install"
-    service docker start
+    echo "docker exists"
 else
-  echo "docker not exists: i will install"
-  curl -sSL https://get.docker.com/ | sh
+  echo "docker not exists: please install"
 fi
 
 
